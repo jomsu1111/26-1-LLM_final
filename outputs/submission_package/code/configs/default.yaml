@@ -1,0 +1,13 @@
+dataset: gsm8k
+model_name: Qwen/Qwen2.5-1.5B-Instruct
+split: test
+max_examples: null
+seed: 42
+temperature: 0.7
+top_p: 0.95
+max_new_tokens_initial: 256
+max_new_tokens_verify: 256
+max_new_tokens_sc3: 256
+lambda_value: 0.1
+cost_normalizer: null
+

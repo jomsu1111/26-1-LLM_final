@@ -1,0 +1,7 @@
+method,lambda_value,accuracy,avg_total_tokens,avg_additional_tokens,avg_latency,utility,num_examples,stop_count,verify_count,sc3_count,eval_split,cost_normalizer
+Always STOP,0.1,0.0,75.1,0.0,1.1563301086425781e-05,-0.031123083298798176,10,10,0,0,all,241.3
+Always VERIFY,0.1,0.0,189.2,114.1,1.9764900207519533e-05,-0.07840861997513468,10,0,10,0,all,241.3
+Always SC-3,0.1,0.0,241.3,166.2,2.1791458129882814e-05,-0.1,10,0,0,10,all,241.3
+Random Router,0.1,0.0,154.3,79.2,1.6689300537109375e-05,-0.06394529631164525,10,4,3,3,all,241.3
+Length Threshold Router,0.1,0.0,174.3,99.2,1.761913299560547e-05,-0.0722337339411521,10,5,0,5,all,241.3
+Oracle Router,0.1,0.0,75.1,0.0,1.1563301086425781e-05,-0.031123083298798176,10,10,0,0,all,241.3

@@ -1,0 +1,19 @@
+method,action,count,fraction
+Always STOP,STOP,10,1.0
+Always STOP,VERIFY,0,0.0
+Always STOP,SC-3,0,0.0
+Always VERIFY,STOP,0,0.0
+Always VERIFY,VERIFY,10,1.0
+Always VERIFY,SC-3,0,0.0
+Always SC-3,STOP,0,0.0
+Always SC-3,VERIFY,0,0.0
+Always SC-3,SC-3,10,1.0
+Random Router,STOP,4,0.4
+Random Router,VERIFY,3,0.3
+Random Router,SC-3,3,0.3
+Length Threshold Router,STOP,5,0.5
+Length Threshold Router,VERIFY,0,0.0
+Length Threshold Router,SC-3,5,0.5
+Oracle Router,STOP,10,1.0
+Oracle Router,VERIFY,0,0.0
+Oracle Router,SC-3,0,0.0
