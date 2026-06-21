@@ -1,0 +1,11 @@
+model,method,lambda_value,accuracy,avg_total_tokens,avg_additional_tokens,avg_latency,utility,num_examples,stop_count,verify_count,sc3_count,eval_split,cost_normalizer,source_method
+qwen2.5-1.5b-100,Always STOP,0.1,0.29,299.23,0.0,4.016454648971558,0.2589833530277587,100,100,0,0,all,964.74,Always STOP
+qwen2.5-1.5b-100,Always VERIFY,0.1,0.44,913.54,614.31,9.279303200244904,0.3453071293820096,100,0,100,0,all,964.74,Always VERIFY
+qwen2.5-1.5b-100,Always SC-3,0.1,0.32,964.74,665.51,12.172039568424225,0.22,100,0,0,100,all,964.74,Always SC-3
+qwen2.5-1.5b-100,Oracle Router,0.1,0.53,445.66,146.43,5.298486309051514,0.4838051703049526,100,76,21,3,all,964.74,Oracle Router
+qwen2.5-1.5b-100,Best learned controller,0.1,0.47,776.28,477.05,8.84777827501297,0.3895347969401082,100,26,44,30,all,964.74,Controller (state_aware)
+qwen2.5-3b-100,Always STOP,0.1,0.32,299.87,0.0,5.1414111971855165,0.2890718565962231,100,100,0,0,all,969.57,Always STOP
+qwen2.5-3b-100,Always VERIFY,0.1,0.54,912.76,612.89,11.800542874336244,0.445859298451891,100,0,100,0,all,969.57,Always VERIFY
+qwen2.5-3b-100,Always SC-3,0.1,0.34,969.57,669.7,15.64892173051834,0.24,100,0,0,100,all,969.57,Always SC-3
+qwen2.5-3b-100,Oracle Router,0.1,0.6,472.56,172.69,7.076141815185547,0.5512608682199326,100,72,25,3,all,969.57,Oracle Router
+qwen2.5-3b-100,Best learned controller,0.1,0.54,646.98,347.11,8.998946821689605,0.4732714502305146,100,45,53,2,all,969.57,"Controller (state_aware, value_predictor)"

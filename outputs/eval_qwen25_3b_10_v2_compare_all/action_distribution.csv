@@ -1,0 +1,22 @@
+method,action,count,fraction
+Always STOP,STOP,10,1.0
+Always STOP,VERIFY,0,0.0
+Always STOP,SC-3,0,0.0
+Always VERIFY,STOP,0,0.0
+Always VERIFY,VERIFY,10,1.0
+Always VERIFY,SC-3,0,0.0
+Always SC-3,STOP,0,0.0
+Always SC-3,VERIFY,0,0.0
+Always SC-3,SC-3,10,1.0
+Random Router,STOP,3,0.3
+Random Router,VERIFY,2,0.2
+Random Router,SC-3,5,0.5
+Length Threshold Router,STOP,4,0.4
+Length Threshold Router,VERIFY,0,0.0
+Length Threshold Router,SC-3,6,0.6
+Oracle Router,STOP,7,0.7
+Oracle Router,VERIFY,3,0.3
+Oracle Router,SC-3,0,0.0
+"Controller (state_aware, random_forest) calibrated",STOP,7,0.7
+"Controller (state_aware, random_forest) calibrated",VERIFY,3,0.3
+"Controller (state_aware, random_forest) calibrated",SC-3,0,0.0

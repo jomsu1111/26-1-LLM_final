@@ -1,0 +1,41 @@
+{
+  "controller_path": "outputs/controllers_qwen25_3b_100_v2_compare/state_aware_logistic_calibrated_lambda_0.1.pkl",
+  "rollout_path": "outputs/gsm8k_rollouts_qwen25_3b_100_shuffle_v2.jsonl",
+  "lambda_value": 0.1,
+  "cost_normalizer": 969.57,
+  "controller_type": "state_aware",
+  "controller_variant": "oracle_classifier",
+  "classifier_type": "logistic",
+  "calibrated": true,
+  "calibration_thresholds": {
+    "VERIFY": 0.7999999999999999,
+    "SC-3": 0.95
+  },
+  "validation_utility": 0.2361926764785764,
+  "validation_action_counts": {
+    "STOP": 15,
+    "VERIFY": 0,
+    "SC-3": 0
+  },
+  "seed": 7,
+  "num_rows": 100,
+  "num_train_rows": 71,
+  "num_validation_rows": 15,
+  "label_counts": {
+    "STOP": 51,
+    "VERIFY": 17,
+    "SC-3": 3
+  },
+  "feature_names": [
+    "question_token_length",
+    "question_word_count",
+    "question_numeric_token_count",
+    "question_arithmetic_symbol_count",
+    "initial_reasoning_token_length",
+    "answer_format_validity",
+    "numeric_answer_extracted",
+    "initial_input_tokens",
+    "initial_output_tokens",
+    "initial_total_tokens"
+  ]
+}

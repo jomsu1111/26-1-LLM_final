@@ -1,0 +1,5 @@
+transition,rate,denominator
+initial_wrong_verify_correct,0.29577464788732394,71
+initial_right_verify_wrong,0.20689655172413793,29
+initial_wrong_sc3_correct,0.08450704225352113,71
+initial_right_sc3_wrong,0.10344827586206896,29

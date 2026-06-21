@@ -1,0 +1,41 @@
+{
+  "controller_path": "outputs/controllers_qwen25_3b_10_v2_compare/state_aware_random_forest_calibrated_lambda_0.1.pkl",
+  "rollout_path": "outputs/gsm8k_rollouts_qwen25_3b_10_shuffle_v2.jsonl",
+  "lambda_value": 0.1,
+  "cost_normalizer": 947.7,
+  "controller_type": "state_aware",
+  "controller_variant": "oracle_classifier",
+  "classifier_type": "random_forest",
+  "calibrated": true,
+  "calibration_thresholds": {
+    "VERIFY": 0.5499999999999999,
+    "SC-3": 0.0
+  },
+  "validation_utility": 0.615103232387183,
+  "validation_action_counts": {
+    "STOP": 2,
+    "VERIFY": 1,
+    "SC-3": 0
+  },
+  "seed": 7,
+  "num_rows": 10,
+  "num_train_rows": 5,
+  "num_validation_rows": 3,
+  "label_counts": {
+    "STOP": 4,
+    "VERIFY": 1,
+    "SC-3": 0
+  },
+  "feature_names": [
+    "question_token_length",
+    "question_word_count",
+    "question_numeric_token_count",
+    "question_arithmetic_symbol_count",
+    "initial_reasoning_token_length",
+    "answer_format_validity",
+    "numeric_answer_extracted",
+    "initial_input_tokens",
+    "initial_output_tokens",
+    "initial_total_tokens"
+  ]
+}

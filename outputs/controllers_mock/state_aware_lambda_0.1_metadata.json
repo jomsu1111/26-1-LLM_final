@@ -1,0 +1,28 @@
+{
+  "controller_path": "outputs/controllers_mock/state_aware_lambda_0.1.pkl",
+  "rollout_path": "outputs/gsm8k_rollouts_mock.jsonl",
+  "lambda_value": 0.1,
+  "cost_normalizer": 241.3,
+  "controller_type": "state_aware",
+  "classifier_type": "logistic",
+  "seed": 42,
+  "num_rows": 10,
+  "num_train_rows": 8,
+  "label_counts": {
+    "STOP": 8,
+    "VERIFY": 0,
+    "SC-3": 0
+  },
+  "feature_names": [
+    "question_token_length",
+    "question_word_count",
+    "question_numeric_token_count",
+    "question_arithmetic_symbol_count",
+    "initial_reasoning_token_length",
+    "answer_format_validity",
+    "numeric_answer_extracted",
+    "initial_input_tokens",
+    "initial_output_tokens",
+    "initial_total_tokens"
+  ]
+}

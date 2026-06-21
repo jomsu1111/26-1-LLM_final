@@ -1,0 +1,28 @@
+{
+  "controller_path": "outputs/controllers_qwen100_shuffle_v2/state_aware_lambda_0.1.pkl",
+  "rollout_path": "outputs/gsm8k_rollouts_qwen100_shuffle_v2.jsonl",
+  "lambda_value": 0.1,
+  "cost_normalizer": 964.74,
+  "controller_type": "state_aware",
+  "classifier_type": "logistic",
+  "seed": 7,
+  "num_rows": 100,
+  "num_train_rows": 71,
+  "label_counts": {
+    "STOP": 54,
+    "VERIFY": 16,
+    "SC-3": 1
+  },
+  "feature_names": [
+    "question_token_length",
+    "question_word_count",
+    "question_numeric_token_count",
+    "question_arithmetic_symbol_count",
+    "initial_reasoning_token_length",
+    "answer_format_validity",
+    "numeric_answer_extracted",
+    "initial_input_tokens",
+    "initial_output_tokens",
+    "initial_total_tokens"
+  ]
+}

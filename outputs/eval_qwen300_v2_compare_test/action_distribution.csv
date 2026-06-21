@@ -1,0 +1,28 @@
+method,action,count,fraction
+Always STOP,STOP,47,1.0
+Always STOP,VERIFY,0,0.0
+Always STOP,SC-3,0,0.0
+Always VERIFY,STOP,0,0.0
+Always VERIFY,VERIFY,47,1.0
+Always VERIFY,SC-3,0,0.0
+Always SC-3,STOP,0,0.0
+Always SC-3,VERIFY,0,0.0
+Always SC-3,SC-3,47,1.0
+Random Router,STOP,13,0.2765957446808511
+Random Router,VERIFY,15,0.3191489361702128
+Random Router,SC-3,19,0.40425531914893614
+Length Threshold Router,STOP,23,0.48936170212765956
+Length Threshold Router,VERIFY,0,0.0
+Length Threshold Router,SC-3,24,0.5106382978723404
+Oracle Router,STOP,37,0.7872340425531915
+Oracle Router,VERIFY,6,0.1276595744680851
+Oracle Router,SC-3,4,0.0851063829787234
+"Controller (state_aware, logistic) calibrated",STOP,18,0.3829787234042553
+"Controller (state_aware, logistic) calibrated",VERIFY,28,0.5957446808510638
+"Controller (state_aware, logistic) calibrated",SC-3,1,0.02127659574468085
+"Controller (state_aware, random_forest) calibrated",STOP,34,0.723404255319149
+"Controller (state_aware, random_forest) calibrated",VERIFY,13,0.2765957446808511
+"Controller (state_aware, random_forest) calibrated",SC-3,0,0.0
+"Controller (state_aware, value_predictor)",STOP,8,0.1702127659574468
+"Controller (state_aware, value_predictor)",VERIFY,39,0.8297872340425532
+"Controller (state_aware, value_predictor)",SC-3,0,0.0

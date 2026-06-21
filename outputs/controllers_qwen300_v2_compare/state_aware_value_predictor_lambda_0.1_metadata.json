@@ -1,0 +1,34 @@
+{
+  "controller_path": "outputs/controllers_qwen300_v2_compare/state_aware_value_predictor_lambda_0.1.pkl",
+  "rollout_path": "outputs/gsm8k_rollouts_qwen300_shuffle_v2.jsonl",
+  "lambda_value": 0.1,
+  "cost_normalizer": 966.53,
+  "controller_type": "state_aware",
+  "controller_variant": "value_predictor",
+  "classifier_type": "value_predictor",
+  "calibrated": false,
+  "calibration_thresholds": null,
+  "validation_utility": null,
+  "validation_action_counts": null,
+  "seed": 7,
+  "num_rows": 300,
+  "num_train_rows": 211,
+  "num_validation_rows": 42,
+  "label_counts": {
+    "STOP": 58,
+    "VERIFY": 83,
+    "SC-3": 60
+  },
+  "feature_names": [
+    "question_token_length",
+    "question_word_count",
+    "question_numeric_token_count",
+    "question_arithmetic_symbol_count",
+    "initial_reasoning_token_length",
+    "answer_format_validity",
+    "numeric_answer_extracted",
+    "initial_input_tokens",
+    "initial_output_tokens",
+    "initial_total_tokens"
+  ]
+}
